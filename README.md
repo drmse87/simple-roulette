@@ -1,2 +1,2 @@
 # Description
-Basic roulette game created with Web components and custom elements (https://developer.mozilla.org/en-US/docs/Web/Web_Components)
+Basic JavaScript roulette game created with Web Components and Custom Elements (https://developer.mozilla.org/en-US/docs/Web/Web_Components)

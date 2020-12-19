@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+header, nav, main, footer, section {
+    display: block;
+}
+html, body, div, header, nav, main, section, footer {
+    margin: 0;
+    padding: 0;
+}
+
+roulette-app {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#loader {
+  animation: spin 2s linear infinite;
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid green;
+  height: 25px;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  width: 25px;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+#small-screen {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+roulette-app {
+    display: none;
+}
+
+#small-screen {
+    display: block;
+}
+}
